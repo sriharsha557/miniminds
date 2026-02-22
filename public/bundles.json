@@ -1,0 +1,282 @@
+{
+  "bundles": [
+    {
+      "id": "mega-bundle-complete-collection",
+      "name": "Mega Bundle - Complete Collection",
+      "ageRange": "5-6",
+      "skills": ["Alphabet", "Numbers", "Shapes/Colors", "Tracing", "Logical Thinking"],
+      "learningGoals": [
+        "Build complete preschool readiness across all core skills",
+        "Get progressive worksheets from beginner to advanced levels",
+        "Support structured daily and weekly home learning routines"
+      ],
+      "worksheetCount": 10000,
+      "isFree": false,
+      "price": 199,
+      "coverImageUrl": "/images/mega-bundle.jpg",
+      "previewImageUrls": [
+        "/images/mega-bundle.jpg"
+      ],
+      "pdfUrl": "/pdfs/mega-bundle-complete-collection.pdf",
+      "pdfSizeBytes": 104857600,
+      "printingTips": [
+        "Print selected worksheets based on your child's current skill level",
+        "Use duplex printing to reduce paper usage for large sets",
+        "Organize worksheets by skill and age in labeled folders"
+      ]
+    },
+    {
+      "id": "alphabet-tracing-basics",
+      "name": "Alphabet Tracing Basics",
+      "ageRange": "3-4",
+      "skills": ["Alphabet", "Tracing"],
+      "learningGoals": [
+        "Recognize uppercase letters A-Z",
+        "Practice proper letter formation",
+        "Develop fine motor control"
+      ],
+      "worksheetCount": 26,
+      "isFree": true,
+      "coverImageUrl": "/images/alphabet-tracing.jpg",
+      "previewImageUrls": [
+        "/images/alphabet-tracing.jpg"
+      ],
+      "pdfUrl": "/pdfs/alphabet-tracing-basics.pdf",
+      "pdfSizeBytes": 2457600,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Use cardstock for durability",
+        "Black and white printing recommended"
+      ]
+    },
+    {
+      "id": "counting-fun-1-10",
+      "name": "Counting Fun: Numbers 1-10",
+      "ageRange": "2-3",
+      "skills": ["Numbers"],
+      "learningGoals": [
+        "Count from 1 to 10",
+        "Recognize number symbols",
+        "Match quantities to numbers"
+      ],
+      "worksheetCount": 15,
+      "isFree": true,
+      "coverImageUrl": "/images/counting-fun.jpg",
+      "previewImageUrls": [
+        "/images/counting-fun.jpg"
+      ],
+      "pdfUrl": "/pdfs/counting-fun-1-10.pdf",
+      "pdfSizeBytes": 1843200,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Color printing enhances engagement",
+        "Laminate for reusable counting practice"
+      ]
+    },
+    {
+      "id": "shapes-and-colors-explorer",
+      "name": "Shapes & Colors Explorer",
+      "ageRange": "2-3",
+      "skills": ["Shapes/Colors"],
+      "learningGoals": [
+        "Identify basic shapes (circle, square, triangle, rectangle)",
+        "Recognize primary colors",
+        "Sort objects by shape and color"
+      ],
+      "worksheetCount": 20,
+      "isFree": false,
+      "price": 149,
+      "coverImageUrl": "/images/counting-fun.jpg",
+      "previewImageUrls": [
+        "/images/counting-fun.jpg"
+      ],
+      "pdfUrl": "/pdfs/shapes-and-colors-explorer.pdf",
+      "pdfSizeBytes": 3145728,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Color printing required for full experience",
+        "Use thick paper for cutting activities"
+      ]
+    },
+    {
+      "id": "pre-writing-lines-curves",
+      "name": "Pre-Writing: Lines & Curves",
+      "ageRange": "3-4",
+      "skills": ["Tracing"],
+      "learningGoals": [
+        "Practice drawing straight lines",
+        "Master curved line formation",
+        "Build pencil grip strength",
+        "Prepare for letter writing"
+      ],
+      "worksheetCount": 18,
+      "isFree": true,
+      "coverImageUrl": "/images/alphabet-tracing.jpg",
+      "previewImageUrls": [
+        "/images/alphabet-tracing.jpg"
+      ],
+      "pdfUrl": "/pdfs/pre-writing-lines-curves.pdf",
+      "pdfSizeBytes": 2097152,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Black and white printing recommended",
+        "Use with pencils or crayons for best results"
+      ]
+    },
+    {
+      "id": "pattern-recognition-fun",
+      "name": "Pattern Recognition Fun",
+      "ageRange": "4-5",
+      "skills": ["Logical Thinking"],
+      "learningGoals": [
+        "Identify and continue patterns",
+        "Recognize AB, ABC, and AAB patterns",
+        "Develop logical reasoning skills",
+        "Enhance visual discrimination"
+      ],
+      "worksheetCount": 22,
+      "isFree": false,
+      "price": 199,
+      "coverImageUrl": "/images/counting-fun.jpg",
+      "previewImageUrls": [
+        "/images/counting-fun.jpg"
+      ],
+      "pdfUrl": "/pdfs/pattern-recognition-fun.pdf",
+      "pdfSizeBytes": 2621440,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Color printing enhances pattern visibility",
+        "Consider laminating for repeated use"
+      ]
+    },
+    {
+      "id": "sight-words-starter-pack",
+      "name": "Sight Words Starter Pack",
+      "ageRange": "5-6",
+      "skills": ["Alphabet"],
+      "learningGoals": [
+        "Recognize 25 common sight words",
+        "Practice reading simple sentences",
+        "Build reading confidence",
+        "Improve word recognition speed"
+      ],
+      "worksheetCount": 30,
+      "isFree": false,
+      "price": 249,
+      "coverImageUrl": "/images/sight-words.jpg",
+      "previewImageUrls": [
+        "/images/sight-words.jpg"
+      ],
+      "pdfUrl": "/pdfs/sight-words-starter-pack.pdf",
+      "pdfSizeBytes": 3670016,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Black and white printing recommended",
+        "Cut into flashcards for additional practice"
+      ]
+    },
+    {
+      "id": "number-puzzles-advanced",
+      "name": "Number Puzzles: Advanced",
+      "ageRange": "5-6",
+      "skills": ["Numbers", "Logical Thinking"],
+      "learningGoals": [
+        "Count to 20 and beyond",
+        "Solve simple addition problems",
+        "Complete number sequences",
+        "Develop problem-solving skills"
+      ],
+      "worksheetCount": 25,
+      "isFree": true,
+      "coverImageUrl": "/images/counting-fun.jpg",
+      "previewImageUrls": [
+        "/images/counting-fun.jpg"
+      ],
+      "pdfUrl": "/pdfs/number-puzzles-advanced.pdf",
+      "pdfSizeBytes": 2883584,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Black and white printing recommended",
+        "Use with pencils and erasers for problem-solving"
+      ]
+    },
+    {
+      "id": "logic-games-for-preschoolers",
+      "name": "Logic Games for Preschoolers",
+      "ageRange": "4-5",
+      "skills": ["Logical Thinking"],
+      "learningGoals": [
+        "Solve age-appropriate puzzles",
+        "Practice critical thinking",
+        "Develop reasoning abilities",
+        "Complete matching and sorting activities"
+      ],
+      "worksheetCount": 28,
+      "isFree": false,
+      "price": 179,
+      "coverImageUrl": "/images/alphabet-tracing.jpg",
+      "previewImageUrls": [
+        "/images/alphabet-tracing.jpg"
+      ],
+      "pdfUrl": "/pdfs/logic-games-for-preschoolers.pdf",
+      "pdfSizeBytes": 3407872,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Color printing enhances visual appeal",
+        "Laminate for reusable puzzle practice"
+      ]
+    },
+    {
+      "id": "rainbow-shapes-coloring",
+      "name": "Rainbow Shapes Coloring",
+      "ageRange": "3-4",
+      "skills": ["Shapes/Colors", "Tracing"],
+      "learningGoals": [
+        "Identify shapes in everyday objects",
+        "Practice staying within lines",
+        "Learn color names",
+        "Develop hand-eye coordination"
+      ],
+      "worksheetCount": 16,
+      "isFree": false,
+      "price": 129,
+      "coverImageUrl": "/images/counting-fun.jpg",
+      "previewImageUrls": [
+        "/images/counting-fun.jpg"
+      ],
+      "pdfUrl": "/pdfs/rainbow-shapes-coloring.pdf",
+      "pdfSizeBytes": 1572864,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Black and white printing for coloring activities",
+        "Use crayons or colored pencils"
+      ]
+    },
+    {
+      "id": "early-math-concepts",
+      "name": "Early Math Concepts",
+      "ageRange": "4-5",
+      "skills": ["Numbers", "Shapes/Colors"],
+      "learningGoals": [
+        "Compare quantities (more, less, equal)",
+        "Understand basic measurement concepts",
+        "Sort objects by attributes",
+        "Recognize number patterns"
+      ],
+      "worksheetCount": 24,
+      "isFree": false,
+      "price": 169,
+      "coverImageUrl": "/images/sight-words.jpg",
+      "previewImageUrls": [
+        "/images/sight-words.jpg"
+      ],
+      "pdfUrl": "/pdfs/early-math-concepts.pdf",
+      "pdfSizeBytes": 2949120,
+      "printingTips": [
+        "Print on standard letter (8.5x11) or A4 paper",
+        "Color printing recommended for visual clarity",
+        "Use manipulatives alongside worksheets"
+      ]
+    }
+  ]
+}

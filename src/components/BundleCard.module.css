@@ -1,0 +1,190 @@
+/**
+ * BundleCard component styles
+ * Mobile-first responsive design with lazy-loaded images
+ */
+
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Ensure minimum touch target size for mobile (Requirement 7.4) */
+  min-height: var(--touch-target-min);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: var(--color-primary-light);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.card:active {
+  transform: translateY(0);
+}
+
+/* Image Container */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-base);
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+/* Free/Paid Badge */
+.badge {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  z-index: 10;
+}
+
+.badgeFree,
+.badgePaid {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  box-shadow: var(--shadow-sm);
+}
+
+.badgeFree {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.badgePaid {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+/* Content Area */
+.content {
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  flex: 1;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin: 0;
+  line-height: var(--line-height-heading);
+  /* Ensure readable text size on mobile (Requirement 7.3) */
+  min-height: calc(var(--font-size-lg) * var(--line-height-heading));
+}
+
+/* Metadata */
+.metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xs);
+}
+
+.metadataItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+}
+
+.metadataLabel {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-regular);
+}
+
+.metadataValue {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-xs);
+}
+
+.skillTag {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  white-space: nowrap;
+}
+
+.addToCartButton {
+  margin-top: auto;
+  min-height: var(--touch-target-min);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-primary);
+  background: #fff;
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+}
+
+.addToCartButton:hover {
+  background: var(--color-primary-light);
+}
+
+/* Responsive design for tablets and larger (Requirement 7.2) */
+@media (min-width: 768px) {
+  .content {
+    padding: var(--spacing-lg);
+  }
+  
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  
+  .metadata {
+    gap: var(--spacing-lg);
+  }
+  
+  .metadataItem {
+    font-size: var(--font-size-base);
+  }
+  
+  .skillTag {
+    font-size: var(--font-size-base);
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+}
+
+/* Responsive design for desktops (Requirement 7.1) */
+@media (min-width: 1024px) {
+  .card {
+    /* Cards maintain vertical layout even on desktop for grid consistency */
+    flex-direction: column;
+  }
+}

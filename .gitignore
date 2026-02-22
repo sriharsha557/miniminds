@@ -1,0 +1,62 @@
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+*.local
+
+# Env (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dev-server.log
+
+# Coverage / tests
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel/
+
+# Python (accidentally created in parent earlier)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local tooling dirs
+.claude/
+.kiro/
+
+# Test artifacts
+*.test.js.snap
+.vitest/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Editor backup files
+*~
+*.swp
+*.swo

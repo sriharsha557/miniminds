@@ -1,0 +1,302 @@
+.page {
+  min-height: calc(100vh - 80px);
+  background: var(--color-background);
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.backButton {
+  justify-self: start;
+  min-height: var(--touch-target-min);
+  padding: 0 var(--spacing-md);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.layout {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.paymentSection,
+.summarySection {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.title {
+  margin-bottom: var(--spacing-xs);
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.billingCard {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  background: #fafcff;
+  margin-bottom: var(--spacing-md);
+}
+
+.shippingCard {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  background: #fcfcfd;
+  margin-top: var(--spacing-sm);
+}
+
+.sectionHeading {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+.fieldGrid {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.field {
+  display: grid;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.input {
+  min-height: var(--touch-target-min);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0 var(--spacing-sm);
+  font-size: var(--font-size-base);
+  background: var(--color-surface);
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
+.methods {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.fulfillmentGrid {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.fulfillmentCard {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-surface);
+  display: grid;
+  gap: var(--spacing-xs);
+  text-align: left;
+}
+
+.fulfillmentCard span {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.fulfillmentSelected {
+  border-color: var(--color-primary);
+  background: #f5faff;
+}
+
+.methodCard {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--spacing-sm);
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-sm);
+  cursor: pointer;
+  background: var(--color-surface);
+}
+
+.methodCardSelected {
+  border-color: var(--color-primary);
+  background: #f5faff;
+}
+
+.methodTitle {
+  font-weight: var(--font-weight-semibold);
+}
+
+.methodSubtitle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.methodState {
+  font-size: var(--font-size-sm);
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+}
+
+.methodHint {
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  background: #f4f8ff;
+  color: #224b77;
+  font-size: var(--font-size-sm);
+}
+
+.terms {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.payButton {
+  width: 100%;
+  margin-top: var(--spacing-md);
+  min-height: var(--touch-target-min);
+  border-radius: var(--radius-md);
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: var(--font-weight-semibold);
+}
+
+.payButton:hover:enabled {
+  background: var(--color-primary-dark);
+}
+
+.payButton:disabled {
+  opacity: 0.75;
+  cursor: wait;
+}
+
+.notice {
+  margin-top: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: #7a4a12;
+  background: #fff6e9;
+  border: 1px solid #f4d4a5;
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.summaryTitle {
+  margin-bottom: var(--spacing-md);
+}
+
+.bundleRow {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.summaryItems {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.bundleImage {
+  width: 84px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.bundleName {
+  font-weight: var(--font-weight-semibold);
+}
+
+.bundleMeta {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.removeButton {
+  margin-top: var(--spacing-xs);
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #b42318;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.priceBreakdown {
+  display: grid;
+  gap: var(--spacing-xs);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--spacing-sm);
+}
+
+.priceLine,
+.totalLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalLine {
+  margin-top: var(--spacing-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.secureNote {
+  margin-top: var(--spacing-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.trustList {
+  margin-top: var(--spacing-sm);
+  padding-left: 1rem;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  display: grid;
+  gap: var(--spacing-xs);
+}
+
+.state,
+.stateError {
+  max-width: 960px;
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.stateError {
+  border-color: var(--color-error);
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: 1.3fr 1fr;
+    align-items: start;
+  }
+
+  .fieldGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
