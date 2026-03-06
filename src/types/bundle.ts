@@ -8,7 +8,7 @@
 /**
  * Age range categories for worksheet bundles
  */
-export type AgeRange = '2-3' | '3-4' | '4-5' | '5-6';
+export type AgeRange = '2-4' | '4-6';
 
 /**
  * Learning skill categories
@@ -56,6 +56,9 @@ export interface Bundle {
   
   /** Size of the PDF file in bytes */
   pdfSizeBytes: number;
+  
+  /** Google Drive folder link for purchased bundles (only present for paid bundles) */
+  driveLink?: string;
   
   /** Tips for printing the worksheets */
   printingTips: string[];

@@ -16,7 +16,7 @@ import styles from './FilterPanel.module.css';
 /**
  * All available age ranges
  */
-const AGE_RANGES: AgeRange[] = ['2-3', '3-4', '4-5', '5-6'];
+const AGE_RANGES: AgeRange[] = ['2-4', '4-6'];
 
 /**
  * All available skills

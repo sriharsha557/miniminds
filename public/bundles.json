@@ -3,7 +3,7 @@
     {
       "id": "mega-bundle-complete-collection",
       "name": "Mega Bundle - Complete Collection",
-      "ageRange": "5-6",
+      "ageRange": "2-4",
       "skills": ["Alphabet", "Numbers", "Shapes/Colors", "Tracing", "Logical Thinking"],
       "learningGoals": [
         "Build complete preschool readiness across all core skills",
@@ -19,6 +19,7 @@
       ],
       "pdfUrl": "/pdfs/mega-bundle-complete-collection.pdf",
       "pdfSizeBytes": 104857600,
+      "driveLink": "https://drive.google.com/drive/folders/139ry9-_1nr8pCUzjd-KoSUO7ldm6mo9v?usp=drive_link",
       "printingTips": [
         "Print selected worksheets based on your child's current skill level",
         "Use duplex printing to reduce paper usage for large sets",
@@ -28,7 +29,7 @@
     {
       "id": "alphabet-tracing-basics",
       "name": "Alphabet Tracing Basics",
-      "ageRange": "3-4",
+      "ageRange": "2-4",
       "skills": ["Alphabet", "Tracing"],
       "learningGoals": [
         "Recognize uppercase letters A-Z",
@@ -52,7 +53,7 @@
     {
       "id": "counting-fun-1-10",
       "name": "Counting Fun: Numbers 1-10",
-      "ageRange": "2-3",
+      "ageRange": "2-4",
       "skills": ["Numbers"],
       "learningGoals": [
         "Count from 1 to 10",
@@ -76,7 +77,7 @@
     {
       "id": "shapes-and-colors-explorer",
       "name": "Shapes & Colors Explorer",
-      "ageRange": "2-3",
+      "ageRange": "2-4",
       "skills": ["Shapes/Colors"],
       "learningGoals": [
         "Identify basic shapes (circle, square, triangle, rectangle)",
@@ -92,6 +93,7 @@
       ],
       "pdfUrl": "/pdfs/shapes-and-colors-explorer.pdf",
       "pdfSizeBytes": 3145728,
+      "driveLink": "https://drive.google.com/drive/folders/195gNY5ZNESvr_w4itePfvBClzSEGzMXz?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Color printing required for full experience",
@@ -101,7 +103,7 @@
     {
       "id": "pre-writing-lines-curves",
       "name": "Pre-Writing: Lines & Curves",
-      "ageRange": "3-4",
+      "ageRange": "2-4",
       "skills": ["Tracing"],
       "learningGoals": [
         "Practice drawing straight lines",
@@ -126,7 +128,7 @@
     {
       "id": "pattern-recognition-fun",
       "name": "Pattern Recognition Fun",
-      "ageRange": "4-5",
+      "ageRange": "4-6",
       "skills": ["Logical Thinking"],
       "learningGoals": [
         "Identify and continue patterns",
@@ -143,6 +145,7 @@
       ],
       "pdfUrl": "/pdfs/pattern-recognition-fun.pdf",
       "pdfSizeBytes": 2621440,
+      "driveLink": "https://drive.google.com/drive/folders/1jib0pNNPqm0QmtZQmqqiANQiqcGqUwCt?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Color printing enhances pattern visibility",
@@ -152,7 +155,7 @@
     {
       "id": "sight-words-starter-pack",
       "name": "Sight Words Starter Pack",
-      "ageRange": "5-6",
+      "ageRange": "4-6",
       "skills": ["Alphabet"],
       "learningGoals": [
         "Recognize 25 common sight words",
@@ -169,6 +172,7 @@
       ],
       "pdfUrl": "/pdfs/sight-words-starter-pack.pdf",
       "pdfSizeBytes": 3670016,
+      "driveLink": "https://drive.google.com/drive/folders/1yFF40ogw-pRvusuFe8TNwpPEQmLEFPLf?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Black and white printing recommended",
@@ -178,7 +182,7 @@
     {
       "id": "number-puzzles-advanced",
       "name": "Number Puzzles: Advanced",
-      "ageRange": "5-6",
+      "ageRange": "4-6",
       "skills": ["Numbers", "Logical Thinking"],
       "learningGoals": [
         "Count to 20 and beyond",
@@ -203,7 +207,7 @@
     {
       "id": "logic-games-for-preschoolers",
       "name": "Logic Games for Preschoolers",
-      "ageRange": "4-5",
+      "ageRange": "4-6",
       "skills": ["Logical Thinking"],
       "learningGoals": [
         "Solve age-appropriate puzzles",
@@ -220,6 +224,7 @@
       ],
       "pdfUrl": "/pdfs/logic-games-for-preschoolers.pdf",
       "pdfSizeBytes": 3407872,
+      "driveLink": "https://drive.google.com/drive/folders/1i4QaDJJPhg8q-IzZDrp-AL_dPhyxVLiA?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Color printing enhances visual appeal",
@@ -229,7 +234,7 @@
     {
       "id": "rainbow-shapes-coloring",
       "name": "Rainbow Shapes Coloring",
-      "ageRange": "3-4",
+      "ageRange": "2-4",
       "skills": ["Shapes/Colors", "Tracing"],
       "learningGoals": [
         "Identify shapes in everyday objects",
@@ -246,6 +251,7 @@
       ],
       "pdfUrl": "/pdfs/rainbow-shapes-coloring.pdf",
       "pdfSizeBytes": 1572864,
+      "driveLink": "https://drive.google.com/drive/folders/1i4QaDJJPhg8q-IzZDrp-AL_dPhyxVLiA?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Black and white printing for coloring activities",
@@ -255,7 +261,7 @@
     {
       "id": "early-math-concepts",
       "name": "Early Math Concepts",
-      "ageRange": "4-5",
+      "ageRange": "4-6",
       "skills": ["Numbers", "Shapes/Colors"],
       "learningGoals": [
         "Compare quantities (more, less, equal)",
@@ -272,6 +278,7 @@
       ],
       "pdfUrl": "/pdfs/early-math-concepts.pdf",
       "pdfSizeBytes": 2949120,
+      "driveLink": "https://drive.google.com/drive/folders/1jib0pNNPqm0QmtZQmqqiANQiqcGqUwCt?usp=drive_link",
       "printingTips": [
         "Print on standard letter (8.5x11) or A4 paper",
         "Color printing recommended for visual clarity",
