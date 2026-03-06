@@ -309,7 +309,7 @@ export function HomePage() {
               <h1 className={styles.title}>Find the Perfect Learning Bundle</h1>
               <p className={styles.subtitle}>Pick an age group, explore skills, then checkout in minutes.</p>
               <div className={styles.quickPills} role="group" aria-label="Quick age filters">
-                {['2-3', '3-4', '4-5', '5-6'].map((age) => (
+                {['2-4', '4-6'].map((age) => (
                   <button
                     key={age}
                     type="button"
