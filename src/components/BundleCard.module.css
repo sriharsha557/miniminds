@@ -63,11 +63,13 @@
 .badgeFree,
 .badgePaid {
   display: inline-block;
-  padding: var(--spacing-xs) var(--spacing-md);
+  padding: 6px 12px;
   border-radius: var(--radius-md);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-bold);
   box-shadow: var(--shadow-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .badgeFree {
@@ -82,36 +84,38 @@
 
 /* Content Area */
 .content {
-  padding: var(--spacing-md);
+  padding: var(--spacing-lg);
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-sm);
+  gap: var(--spacing-xs);
   flex: 1;
 }
 
 .title {
-  font-size: var(--font-size-lg);
+  font-size: 1.125rem;
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-primary);
-  margin: 0;
-  line-height: var(--line-height-heading);
+  margin: 0 0 var(--spacing-xs) 0;
+  line-height: 1.4;
   /* Ensure readable text size on mobile (Requirement 7.3) */
-  min-height: calc(var(--font-size-lg) * var(--line-height-heading));
+  min-height: calc(1.125rem * 1.4);
 }
 
 /* Metadata */
 .metadata {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-md);
-  margin-top: var(--spacing-xs);
+  gap: var(--spacing-sm);
+  margin-top: 0;
+  font-size: 0.875rem;
 }
 
 .metadataItem {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
-  font-size: var(--font-size-sm);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
 }
 
 .metadataLabel {
@@ -129,17 +133,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-xs);
-  margin-top: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
 }
 
 .skillTag {
   display: inline-block;
-  padding: var(--spacing-xs) var(--spacing-sm);
+  padding: 4px 10px;
   background-color: var(--color-primary-light);
   color: var(--color-primary-dark);
   border-radius: var(--radius-sm);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-regular);
+  font-size: 0.8125rem;
+  font-weight: var(--font-weight-medium);
   white-space: nowrap;
 }
 
@@ -160,24 +164,24 @@
 /* Responsive design for tablets and larger (Requirement 7.2) */
 @media (min-width: 768px) {
   .content {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-xl);
   }
   
   .title {
-    font-size: var(--font-size-xl);
+    font-size: 1.25rem;
   }
   
   .metadata {
-    gap: var(--spacing-lg);
+    gap: var(--spacing-md);
   }
   
   .metadataItem {
-    font-size: var(--font-size-base);
+    font-size: 0.9375rem;
   }
   
   .skillTag {
-    font-size: var(--font-size-base);
-    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.875rem;
+    padding: 5px 12px;
   }
 }
 

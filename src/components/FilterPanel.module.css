@@ -82,14 +82,14 @@
 }
 
 .count {
-  font-size: var(--font-size-base);
-  color: var(--color-text-primary);
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
 }
 
 .count strong {
   font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
-  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+  font-size: 1.125rem;
 }
 
 .clearButton {
@@ -125,11 +125,11 @@
 }
 
 .filterTitle {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
+  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
   color: var(--color-text-primary);
   margin: 0;
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
 }
 
 .filterOptions {
@@ -144,13 +144,13 @@
   align-items: center;
   gap: var(--spacing-sm);
   cursor: pointer;
-  padding: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--radius-sm);
   transition: background-color var(--transition-fast);
   /* Ensure minimum touch target size (Requirement 7.4) */
-  min-height: var(--touch-target-min);
+  min-height: 36px;
   /* Ensure readable text size on mobile (Requirement 7.3) */
-  font-size: var(--font-size-base);
+  font-size: 0.9375rem;
 }
 
 .checkboxLabel:hover {
@@ -165,8 +165,8 @@
 
 /* Checkbox input */
 .checkbox {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   cursor: pointer;
   accent-color: var(--color-primary);
   flex-shrink: 0;
@@ -179,7 +179,7 @@
 
 .checkboxText {
   color: var(--color-text-primary);
-  font-size: var(--font-size-base);
+  font-size: 0.9375rem;
   user-select: none;
 }
 
@@ -202,15 +202,19 @@
   }
 
   .count {
-    font-size: var(--font-size-lg);
+    font-size: 1rem;
+  }
+
+  .count strong {
+    font-size: 1.25rem;
   }
 
   .clearButton {
-    font-size: var(--font-size-base);
+    font-size: 0.9375rem;
   }
 
   .filterTitle {
-    font-size: var(--font-size-xl);
+    font-size: 1.0625rem;
   }
 
   .filterGroup {
@@ -218,20 +222,20 @@
   }
 
   .filterOptions {
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
   }
 
   .checkboxLabel {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
   }
 
   .checkbox {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
   }
 
   .checkboxText {
-    font-size: var(--font-size-lg);
+    font-size: 0.9375rem;
   }
 }
 
