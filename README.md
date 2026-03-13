@@ -4,9 +4,12 @@ A modern, accessible web platform for browsing and downloading high-quality pres
 
 ## 🌟 Features
 
-- **Age-Based Filtering**: Browse worksheets by age range (2-3, 3-4, 4-5, 5-6 years)
+- **Age-Based Filtering**: Browse worksheets by age range (2-4, 4-6 years)
 - **Skill Categories**: Filter by learning domains (Alphabet, Numbers, Shapes/Colors, Tracing, Logical Thinking)
+- **Shopping Cart**: Add multiple bundles and checkout together
+- **Stripe Payments**: Secure payment processing with Stripe
 - **Free & Paid Content**: Mix of free and premium worksheet bundles
+- **Google Drive Integration**: Instant access to purchased bundles via Google Drive
 - **Preview Gallery**: View sample worksheets before downloading
 - **Mobile-First Design**: Fully responsive interface optimized for all devices
 - **Accessibility**: WCAG 2.1 Level AA compliant
@@ -17,6 +20,7 @@ A modern, accessible web platform for browsing and downloading high-quality pres
 ### Prerequisites
 
 - Node.js 18+ and npm
+- Stripe account (for payments)
 
 ### Installation
 
@@ -28,11 +32,32 @@ cd miniminds
 # Install dependencies
 npm install
 
-# Start development server
+# Install backend dependencies
+cd server
+npm install
+cd ..
+
+# Configure environment
+copy .env.example .env
+# Edit .env and add your Stripe keys
+```
+
+### Running the Application
+
+**Terminal 1 - Backend Server:**
+```bash
+cd server
+node index.js
+```
+
+**Terminal 2 - Frontend:**
+```bash
 npm run dev
 ```
 
 The app will be available at `http://localhost:5173/`
+
+For detailed setup instructions, see [QUICK_START.md](QUICK_START.md)
 
 ## 📦 Available Scripts
 
@@ -50,8 +75,10 @@ The app will be available at `http://localhost:5173/`
 - **Build Tool**: Vite
 - **Routing**: React Router v6
 - **Styling**: CSS Modules with design tokens
+- **Payments**: Stripe (with Razorpay support)
+- **Backend**: Express.js + Supabase
 - **Testing**: Vitest + React Testing Library + fast-check (property-based testing)
-- **Deployment**: Vercel
+- **Deployment**: Vercel (frontend) + any Node.js host (backend)
 
 ## 📁 Project Structure
 
@@ -108,6 +135,22 @@ npm run test:watch
 npm run test:coverage
 ```
 
+## � Payment Integration
+
+MiniMinds uses Stripe for secure payment processing. See [STRIPE_SETUP.md](STRIPE_SETUP.md) for detailed setup instructions.
+
+### Quick Setup
+
+1. Get your Stripe API keys from https://dashboard.stripe.com/test/apikeys
+2. Add to `.env`:
+   ```env
+   STRIPE_SECRET_KEY=sk_test_your_key_here
+   VITE_API_BASE_URL=http://localhost:8000
+   VITE_DEFAULT_PAYMENT_PROVIDER=stripe
+   ```
+3. Start backend server: `cd server && node index.js`
+4. Test with card: `4242 4242 4242 4242`
+
 ## 🚀 Deployment
 
 ### Deploy to Vercel
@@ -115,14 +158,26 @@ npm run test:coverage
 1. Push your code to GitHub
 2. Import the project in Vercel
 3. Vercel will auto-detect Vite and configure build settings
-4. Deploy!
+4. Add environment variables in Vercel dashboard:
+   - `VITE_API_BASE_URL` - Your backend API URL
+   - `VITE_DEFAULT_PAYMENT_PROVIDER` - `stripe`
+5. Deploy!
 
-Or use the Vercel CLI:
+### Deploy Backend
 
-```bash
-npm install -g vercel
-vercel
-```
+The backend can be deployed to:
+- **Railway**: https://railway.app
+- **Render**: https://render.com
+- **Heroku**: https://heroku.com
+- **DigitalOcean App Platform**: https://www.digitalocean.com/products/app-platform
+
+Set these environment variables on your backend host:
+- `STRIPE_SECRET_KEY`
+- `STRIPE_WEBHOOK_SECRET`
+- `SUPABASE_URL`
+- `SUPABASE_SERVICE_ROLE_KEY`
+- `FRONTEND_ORIGIN`
+- `PUBLIC_API_BASE_URL`
 
 ### Build Settings
 
